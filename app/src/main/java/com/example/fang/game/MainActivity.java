@@ -12,7 +12,9 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //新建一个textview
         TextView tv=new TextView(this);
+        //新建以一个Imageview
         ImageView im=new ImageView(this);
     }
 }
